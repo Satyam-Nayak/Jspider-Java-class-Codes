@@ -31,6 +31,14 @@ public class product {
         this.tax = tax;
 
     }
+    public product(String pid, double price,String color,String mfgdate,String expdate) {
+        this.pid = pid;
+        this.color = color;
+        this.price = price;
+        this.mfgdate=mfgdate;
+        this.expdate=expdate;
+
+    }
 
     void productdetails() {
         System.out.println("============Product Details===============");
