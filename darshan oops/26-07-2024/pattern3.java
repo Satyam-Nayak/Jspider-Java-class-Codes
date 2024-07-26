@@ -3,7 +3,7 @@ public class pattern3 {
             int i,j;
             for(i=1;i<=5;i++){
                 for(j=1;j<=5;j++){
-                    System.out.print(1+" ");
+                    System.out.print(i+" ");
                 }
                 System.out.println();
             }
