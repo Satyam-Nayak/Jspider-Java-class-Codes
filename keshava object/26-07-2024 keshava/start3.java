@@ -7,15 +7,12 @@ class Registration {
     Long phonenub;
     String degree;
 
-    // Constructor for phone number registration
     public Registration(String name, String coursename, Long phonenub, String degree) {
         this.name = name;
         this.coursename = coursename;
         this.phonenub = phonenub;
         this.degree = degree;
     }
-
-    // Constructor for email registration
     public Registration(String name, String coursename, String email, String degree) {
         this.name = name;
         this.coursename = coursename;
@@ -23,7 +20,6 @@ class Registration {
         this.degree = degree;
     }
 
-    // Constructor for both phone number and email registration
     public Registration(String name, String coursename, String email, Long phonenub, String degree) {
         this.name = name;
         this.coursename = coursename;
@@ -64,7 +60,7 @@ public class start3 {
         System.out.println("Enter 2 to register using email");
         System.out.println("Enter 3 to register using phone and email");
         int choice = scanner.nextInt();
-        scanner.nextLine(); // Consume newline left-over
+        scanner.nextLine(); 
 
         System.out.println("Enter Name:");
         String name = scanner.nextLine();
@@ -91,7 +87,7 @@ public class start3 {
             case 3:
                 System.out.println("Enter Phone Number:");
                 long phoneNum = scanner.nextLong();
-                scanner.nextLine(); // Consume newline left-over
+                scanner.nextLine(); 
                 System.out.println("Enter Email:");
                 String emailId = scanner.nextLine();
                 registration = new Registration(name, coursename, emailId, phoneNum, degree);
@@ -104,7 +100,6 @@ public class start3 {
 
         registration.studentRegistration();
 
-        // Ask user if they want to update phone number or email
         System.out.println("Do you want to update phone number or email? (yes/no)");
         String updateChoice = scanner.nextLine();
 
@@ -112,7 +107,7 @@ public class start3 {
             System.out.println("Enter 1 to update phone number");
             System.out.println("Enter 2 to update email");
             int updateType = scanner.nextInt();
-            scanner.nextLine(); // Consume newline left-over
+            scanner.nextLine(); 
 
             switch (updateType) {
                 case 1:

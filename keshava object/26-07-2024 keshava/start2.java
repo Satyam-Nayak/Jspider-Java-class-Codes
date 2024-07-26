@@ -51,7 +51,7 @@ public class start2 {
         System.out.println("Enter 2 to register using email");
         System.out.println("Enter 3 to register using phone and email");
         int choice = scanner.nextInt();
-        scanner.nextLine(); // Consume newline left-over
+        scanner.nextLine(); 
 
         System.out.println("Enter Name:");
         String name = scanner.nextLine();
@@ -78,7 +78,7 @@ public class start2 {
             case 3:
                 System.out.println("Enter Phone Number:");
                 long phoneNum = scanner.nextLong();
-                scanner.nextLine(); // Consume newline left-over
+                scanner.nextLine(); 
                 System.out.println("Enter Email:");
                 String emailId = scanner.nextLine();
                 Registration r3 = new Registration(name, coursename, emailId, phoneNum, degree);
