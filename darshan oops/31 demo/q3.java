@@ -1,4 +1,11 @@
+//sum of prime element in array.
 public class q3 {
+    
+        public static void main(String[] args) {
+            int[] array = {2,3,4,5,6,13};
+            sumPrimeElements(array);
+        }
+        
         public static void sumPrimeElements(int[] array) {
             int primeSum = 0;
             

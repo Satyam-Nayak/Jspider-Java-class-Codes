@@ -1,4 +1,11 @@
+//Sum and differance of min and max element in array
+
 public class q5 {
+    public static void main(String[] args) {
+        int[] array = {10, 20, 30, 40, 50};
+        sumAndDifferenceMinMax(array);
+    }
+
         public static void sumAndDifferenceMinMax(int[] array) {
             if (array.length == 0) {
                 System.out.println("Array is empty.");
@@ -20,8 +27,8 @@ public class q5 {
             int sum = min + max;
             int difference = max - min;
             
-            System.out.println("Sum of min and max elements: " + sum);
-            System.out.println("Difference between max and min elements: " + difference);
+            System.out.println(" sum min and max element: " + sum);
+            System.out.println("Difference between max and min: " + difference);
         }
 
     
