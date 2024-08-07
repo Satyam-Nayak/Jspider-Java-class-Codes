@@ -7,8 +7,12 @@ public class q2 {
         String result = "";
         for (int i = 0; i < s.length(); i++) {
             char c = s.charAt(i);
-            int num = c - '0';
-            result += words[num];
+            //darshan sir's referance
+            result += words[c - 48];
+
+            //my method 
+            // int num = c - '0';
+            // result += words[num];
         }
         System.out.println(result);
     }
