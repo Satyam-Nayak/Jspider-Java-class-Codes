@@ -14,3 +14,9 @@ public class sumofthenumberspresentinthegivenstring {
         System.out.println(sum);
     }
 }
+
+// or
+
+// if(ele.charAt(0)>='0'&&ele.charAt(0)<='9'){
+
+// }
