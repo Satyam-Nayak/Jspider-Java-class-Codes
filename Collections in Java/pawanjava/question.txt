@@ -1,0 +1,14 @@
+1. Explain the working of toString() method?
+ans. 
+* it is an inbuilt method present in object class.
+* The method Declaration is public String toString().
+* Whenever we print a referance variable the JVM internally calls toString() method.
+* the default implementaion provides String representaion of object.
+(FullyQualifiedClassName+@+HexadecimalPseudoAddress)
+* if necessary programer can overrride toString() method;
+
+2. Explain the working of equals() method?
+ans.    
+* 
+3. What is the default implementaion of equals() method?
+4. What is the difference between  == operator and equals() method?
