@@ -20,8 +20,8 @@ public class program7 {
     public static void main(String[] args) {
         Developer d1 = new Developer(101, 3.5);
         Developer d2 = new Developer(102, 3.9);
-        System.out.println(d1==d2);
-        System.out.println(d1.equals(d2));
+        System.out.println(d1==d2);  // false : == operator performs address/hashcode comparision.
+        System.out.println(d1.equals(d2)); // true : equals method performs content comparision.
     }
     
 }

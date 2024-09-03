@@ -1,0 +1,8 @@
+equals()
+
+* Method Declaration: public boolean equals(Object obj)
+
+* The default implementaion of equals() method performs same operation as == operator i.e. address/hashCode comparision.
+
+* if programer wants to perform content comparision between Object it is mandatory to overrride equals() mathod and provide 
+required implementaion
