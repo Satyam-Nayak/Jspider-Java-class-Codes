@@ -15,6 +15,4 @@ public class q3 {
     }
 }
 
-
-
 //we can also do that using boolean flag = false;

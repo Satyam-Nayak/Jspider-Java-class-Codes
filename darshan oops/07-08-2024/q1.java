@@ -10,9 +10,7 @@ public class q1 {
                 sum =sum+(c-48); 
             }
         }
-
         System.out.println("sum of numebrs are :- "+sum);
-    }
-        
+    }   
     }
 

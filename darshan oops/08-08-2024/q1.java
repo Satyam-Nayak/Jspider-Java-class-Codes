@@ -14,9 +14,6 @@ public class q1 {
         for(int i=s.length()-1;i>(s.length()/2)-1;i--){
             s2=s2+s.charAt(i);
         }
-    
         System.out.println(s1+s2);
-
-
     }
 }

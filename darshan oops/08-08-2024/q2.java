@@ -5,12 +5,10 @@ public class q2 {
         String str = "abcathcathjcaktcat";
         int count = 0;
         for (int i = 0; i < str.length()-2 ; i++) {
-
             //darshans method
             if(str.charAt(i)=='c' && str.charAt(i+1)=='a' && str.charAt(i+2)=='t'){
                 count++;
             }
-
             //========= Chintu's method=========
             // if(str.charAt(i)=='c'){
             //     if(str.charAt(i+1)=='a'){
@@ -22,8 +20,6 @@ public class q2 {
             }
             System.out.println( "cat reapeted "+count );
         }
-        
-
     }
     
 

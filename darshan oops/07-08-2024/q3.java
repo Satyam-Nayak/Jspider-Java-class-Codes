@@ -13,8 +13,7 @@ public class q3 {
             } else{
                 flag = false;
                 break;
-            }
-           
+            }  
         }
         System.out.println(flag==true?"Palindrome":"Not palindrome");
     }

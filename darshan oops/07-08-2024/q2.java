@@ -9,7 +9,6 @@ public class q2 {
             char c = s.charAt(i);
             //darshan sir's referance
             result += words[c - 48];
-
             //my method 
             // int num = c - '0';
             // result += words[num];
