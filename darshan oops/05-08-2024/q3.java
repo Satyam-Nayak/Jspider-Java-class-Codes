@@ -10,14 +10,11 @@ public class q3 {
             //=======darshan sir method===========
             if((ch>='A' && ch<='Z')|| (ch>='a' && ch<='z')){
                 alphac++;
-
             } else if ((ch>='0'&& ch<='9')){
                 numericc++;
             } else {
                 speciacharaterc++;
             }
-
-
             //============My method========
             // if(Character.isLetter(ch)){
             //     alphac++;
@@ -27,14 +24,10 @@ public class q3 {
             // }
             // else{
             //     speciacharaterc++;
-            // }
-            
+            // } 
         }
         System.out.println("aplha :"+ alphac);
             System.out.println("numeric :"+ numericc);
             System.out.println("special :"+ speciacharaterc);
-
-
     }
-    
 }
