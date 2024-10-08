@@ -19,9 +19,7 @@ public class q3 {
         
     }
     System.out.print(result);
-
 }
-
 }
 
 //=======my method=======

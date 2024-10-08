@@ -14,7 +14,6 @@ public class q4 {
                         sum += c - '0'; 
                     }
                 }
-        
                 System.out.println("sum of numebrs are :- "+sum);
             }
         }
